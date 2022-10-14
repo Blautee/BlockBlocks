@@ -8,3 +8,4 @@ description: A Minecraft Spigot Plugin that can block the placement of certain B
 commands:
   blockblocks:
     description: Add or remove worlds and blocks from the blacklists...
+    aliases: bb

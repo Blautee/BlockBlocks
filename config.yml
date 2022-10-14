@@ -9,6 +9,7 @@ config:
     world_removed: "&cWorld removed!"
     reload_done: "&aReload done!"
     unable_to_place: "&cYou cannot place that block!"
+    wrong_use: "Wrong usage! Try /blockblocks toggle"
   blacklist_blocks:
   - OCHRE_FROGLIGHT
   - VERDANT_FROGLIGHT

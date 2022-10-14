@@ -20,6 +20,7 @@ public class Settings {
 	public static String world_removed;
 	public static String reload_done;
 	public static String unable_to_place;
+	public static String wrong_use;
 
 	public static List<String> blacklist_blocks;
 	public static List<Material> blacklist_materials;
@@ -38,6 +39,7 @@ public class Settings {
 		world_removed = colorMe("config.lang.world_removed");
 		reload_done = colorMe("config.lang.reload_done");
 		unable_to_place = colorMe("config.lang.unable_to_place");
+		wrong_use = colorMe("config.lang.wrong_use");
 	}
 	
 	public static void reloadWorldsList() {
