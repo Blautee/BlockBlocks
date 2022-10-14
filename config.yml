@@ -1,0 +1,48 @@
+config:
+  permission:
+    admin: "zf.bb.admin"
+    bypass: "zf.bb.bypass"
+  lang:
+    prefix: "&9BB &8>> &f"
+    no_perms: "&cNo permission!"
+    world_added: "&aWorld added!"
+    world_removed: "&cWorld removed!"
+    reload_done: "&aReload done!"
+    unable_to_place: "&cYou cannot place that block!"
+  blacklist_blocks:
+  - OCHRE_FROGLIGHT
+  - VERDANT_FROGLIGHT
+  - PEARLESCENT_FROGLIGHT
+  - FROGSPAWN
+  - MANGROVE_PLANKS
+  - MANGROVE_PROPAGULE
+  - MANGROVE_LOG
+  - MANGROVE_ROOTS
+  - MUDDY_MANGROVE_ROOTS
+  - STRIPPED_MANGROVE_LOG
+  - STRIPPED_MANGROVE_WOOD
+  - MANGROVE_WOOD
+  - MANGROVE_LEAVES
+  - MANGROVE_SLAB
+  - MANGROVE_FENCE
+  - MANGROVE_STAIRS
+  - MANGROVE_BUTTON
+  - MANGROVE_PRESSURE_PLATE
+  - MANGROVE_DOOR
+  - MANGROVE_TRAPDOOR
+  - MANGROVE_FENCE_GATE
+  - MANGROVE_SIGN
+  - MUD
+  - MUD_BRICK_SLAB
+  - PACKED_MUD
+  - MUD_BRICKS
+  - MUD_BRICK_STAIRS
+  - MUD_BRICK_WALL
+  - REINFORCED_DEEPSLATE
+  - SCULK
+  - SCULK_VEIN
+  - SCULK_CATALYST
+  - SCULK_SHRIEKER
+  - SCULK_SENSOR
+  blacklist_worlds:
+  - world_mm_test

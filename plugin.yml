@@ -1,0 +1,10 @@
+name: BlockBlocks
+version: 0.1.0
+author: Blautee
+api-version: 1.19
+
+main: de.blautee.blockblocks.Main
+description: A Minecraft Spigot Plugin that can block the placement of certain Blocks!
+commands:
+  blockblocks:
+    description: Add or remove worlds and blocks from the blacklists...
