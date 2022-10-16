@@ -10,6 +10,16 @@ config:
     reload_done: "&aReload done!"
     unable_to_place: "&cYou cannot place that block!"
     wrong_use: "Wrong usage! Try /blockblocks toggle"
+  global_blacklist_blocks:
+  - LIGHT
+  - BARRIER
+  - COMMAND_BLOCK
+  - CHAIN_COMMAND_BLOCK
+  - REPEATING_COMMAND_BLOCK
+  - SPAWNER
+  - JIGSAW
+  - STRUCTURE_BLOCK
+  - STRUCTURE_VOID
   blacklist_blocks:
   - OCHRE_FROGLIGHT
   - VERDANT_FROGLIGHT

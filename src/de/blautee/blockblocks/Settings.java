@@ -24,6 +24,10 @@ public class Settings {
 
 	public static List<String> blacklist_blocks;
 	public static List<Material> blacklist_materials;
+	
+	public static List<String> global_block_blacklist;
+	public static List<Material> global_material_blacklist;
+	
 	public static List<String> blacklist_worlds;
 
 	public static void reloadConfig() {
@@ -53,6 +57,22 @@ public class Settings {
 
 	public static void reloadMaterialLists() {
 		FileConfiguration cfg = Main.getPlugin().getConfig();
+		try {
+			global_block_blacklist = cfg.getStringList("config.global_blacklist_blocks");
+		} catch (Exception ex) {
+			global_block_blacklist = new ArrayList<String>();
+		}
+		
+		global_material_blacklist = new ArrayList<Material>();
+		
+		for (String s : global_block_blacklist) {
+			try {
+				global_material_blacklist.add(Material.valueOf(s));
+			} catch (Exception ex) {
+				Bukkit.getLogger().log(Level.WARNING, "Material " + s + " could not be loaded:\n" + ex);
+			}
+		}
+		
 		try {
 			blacklist_blocks = cfg.getStringList("config.blacklist_blocks");
 		} catch (Exception ex) {
