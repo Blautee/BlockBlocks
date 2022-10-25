@@ -1,7 +1,8 @@
 config:
   permission:
     admin: "zf.bb.admin"
-    bypass: "zf.bb.bypass"
+    bypass_global: "zf.bb.bypass.global"
+    bypass_blacklist: "zf.bb.bypass.blacklist"
   lang:
     prefix: "&9BB &8>> &f"
     no_perms: "&cNo permission!"

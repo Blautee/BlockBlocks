@@ -12,7 +12,8 @@ import org.bukkit.configuration.file.FileConfiguration;
 public class Settings {
 
 	public static String perm_admin;
-	public static String perm_bypass;
+	public static String perm_bypass_global;
+	public static String perm_bypass_blacklist;
 
 	public static String prefix;
 	public static String no_perms;
@@ -33,7 +34,8 @@ public class Settings {
 	public static void reloadConfig() {
 		FileConfiguration cfg = Main.getPlugin().getConfig();
 		perm_admin = cfg.getString("config.permission.admin");
-		perm_bypass = cfg.getString("config.permission.bypass");
+		perm_bypass_global = cfg.getString("config.permission.bypass_global");
+		perm_bypass_blacklist = cfg.getString("config.permission.bypass_blacklist");
 	}
 
 	public static void reloadLang() {
