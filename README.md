@@ -11,6 +11,8 @@ Most of the Plugin works through editing the config.yml. Although there some com
 `/blockblocks reload` to reload the config, and
 `/blockblocks toggle` to add the current world to the world-blacklist.
 
+You can also use the alias `/bb`, but since it's so short, it might interfere with another plugin. Keep that in mind.  
+
 ## Configurability
 ### Permissions
 You can change the permissions as you wish. An admin permission is used for the commands, and two bypass permissions for the global and the special blacklist. They dafault to:
