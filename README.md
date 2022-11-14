@@ -23,7 +23,7 @@ permission:
   bypass_blacklist: "zf.bb.bypass.blacklist"
 ```
 ### Language
-You can also fully control the output phrases. Edit the prefix and more to your liking. They default to:
+You can also fully control the output phrases. Edit the prefix and more to your liking. Feel free the use colors with the colorcode `&`. They default to:
 ```
 lang:
   prefix: "&9BB &8>> &f"
