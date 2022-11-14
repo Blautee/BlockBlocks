@@ -51,7 +51,7 @@ global_blacklist_blocks:
 ### Special Block Blacklist
 This list is similar to the global one, but should include all blocks you don't want to have on the worlds which are toggled on (see World Blacklist below). By default it contains the new blocks of the 1.19 Update. I used them, to let users build, but remain backwards compatibility to 1.18. See the defaults:
 ```
-  blacklist_blocks:
+blacklist_blocks:
   - OCHRE_FROGLIGHT
   - VERDANT_FROGLIGHT
   - PEARLESCENT_FROGLIGHT
