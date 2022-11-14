@@ -16,7 +16,7 @@ public class BlockCommand implements CommandExecutor, TabCompleter {
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if (sender instanceof Player) {
 			Player p = (Player) sender;
-			if (p.hasPermission(Main.getPlugin().getConfig().getString("config.permission.admin"))) {
+			if (p.hasPermission(Settings.perm_admin)) {
 				if (args.length == 1) {
 					if (args[0].equalsIgnoreCase("toggle")) {
 						
